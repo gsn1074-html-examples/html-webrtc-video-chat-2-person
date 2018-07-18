@@ -5,7 +5,7 @@ This project shows how use WebRTC to create a 2 person peer to peer video chat a
 ## Development Technologies
 
 + WebRTC
-+ Javascript
++ Jquery
 
 ## Development server
 

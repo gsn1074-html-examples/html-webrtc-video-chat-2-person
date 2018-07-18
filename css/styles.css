@@ -1,55 +1,49 @@
-h2 {
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-  font-size: 28px;
-  font-weight: bold; }
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-  font-size: 16px; }
-
-input {
-  height: 38px;
-  width: 180px;
-  border: medium solid #F00; }
-
-#my-id {
-  font-size: 22px;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-  font-weight: bold; }
-
-#localVideo {
-  margin-top: 25px;
-  width: 180px;
-  width: 180;
-  height: auto;
-  background-color: #eee; }
-
-#remotes {
-  width: 320;
-  height: 240;
-  background-color: #eee; }
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px; 
+}
 
 #video-container {
-  padding: 25px;
-  text-align: center; }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-#step1-error, #step2, #step3 {
-  display: none; }
+.video-port {
+    max-width: 405px;
+    padding: 0em 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 
-#my-id {
-  font-weight: bold;
-  color: #F00; }
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
-#callto-id {
-  height: 38px; }
+.video-header {
+    text-align: center;
+    font-family: arial;
+    font-size: 1.25em;
+    padding: .5em;
+}
 
-#subhead {
-  font-size: 24px;
-  color: #F00;
-  font-weight: bold; }
+.control-panel {
+    padding: .5em;
+}
 
-#make-call, #end-call {
-  font-size: 18px;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-  font-weight: bold;
-  color: #F00; }
+.status {
+    padding: .25em;
+}
+
+button, input {
+    padding: .25em;
+}
