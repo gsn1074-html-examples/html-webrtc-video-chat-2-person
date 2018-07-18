@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "html.autoClosingTags": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.parameterHints": true,
+    "editor.minimap.enabled": false,
+    "update.channel": "none",
+    "html.format.enable": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingBrackets": false
+}
